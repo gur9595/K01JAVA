@@ -12,7 +12,7 @@ public class SelectQuery extends IConnectImpl{
 	public void execute() {
 		try {
 			while(true) {
-				String sql="select * from member where name like '%||?||%'";
+				String sql="select * from member where name like '%'||?||'%'";
 				psmt =con.prepareStatement(sql);
 				psmt.setString(1,scanValue("찾는이름"));
 				rs = psmt.executeQuery();
