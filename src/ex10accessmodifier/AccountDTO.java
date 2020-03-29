@@ -1,7 +1,7 @@
 package ex10accessmodifier;
 /*
  DTO클래스 (Data Transfer Object)
- 	:데이터 ㄱ환을 위한 객체이다 스프링에서는 bean빈 이라고 부르기도한다
+ 	:데이터 교환을 위한 객체이다 스프링에서는 bean빈 이라고 부르기도한다
  	주로DTO객체는 로직을 전혀 가지고있지 않은 순수한데이터 객체이며
  	맴버변수에 접근하기위한 getter/setter메소드를 가지고있다
  	VO(Value Object)라고부른다

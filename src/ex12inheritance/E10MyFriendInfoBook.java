@@ -32,6 +32,7 @@ class Friend{
 	 */
 	public void showBasicInfo() {}
 }
+
 class HighFriend extends Friend{
 	String nicname; //자식에서 확장한 멤버변수
 
@@ -58,6 +59,7 @@ class HighFriend extends Friend{
 		System.out.println("전번:"+phone);
 	}
 }
+
 class UnivFriend extends Friend{
 	String major;
 
