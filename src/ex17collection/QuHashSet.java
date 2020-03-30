@@ -87,12 +87,15 @@ public class QuHashSet {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("검색할이름");
 		String searchName=sc.nextLine();
+		
 		boolean searchFlag= false; //검색결과 유무 확인
 		
 		Iterator<Avengers> itr= set.iterator();
+		
 		while(itr.hasNext()) {
 			Avengers avengers =itr.next();
 			if(searchName.equals(avengers.name)) {
+
 				searchFlag=true;
 				//toString 메소드를 오버라이딩 했으므로 객체를 즉시 출력가능
 				System.out.println(avengers);
